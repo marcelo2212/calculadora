@@ -32,6 +32,9 @@ Sumario:
           
           - Utils
             Pasta que contém o arquivo utils.js, funções públicas utilizado em toda API
+            
+          - Service
+            Pasta que contém os arquivos que consultam dados de outras APIs
           
           - app.js
             Arquivo responsável por instanciar todas as configurações da API, e instanciar as rotas da API
