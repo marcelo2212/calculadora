@@ -1,0 +1,25 @@
+{
+  "name": "calculadora_metro_quadrado",
+  "version": "1.0.0",
+  "description": "API para realizar o cálculo do metro quadrado de um imóvel, e seu valor",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/index.js",
+    "test": "mocha ./test/app.spec.js"
+  },
+  "author": "Marcelo Gonçalves",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.7",
+    "swagger-jsdoc": "^6.0.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0"
+  }
+}
