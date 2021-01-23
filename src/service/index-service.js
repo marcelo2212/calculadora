@@ -1,6 +1,11 @@
 'use strict';
 
+const fs = require("fs");
+const ini = require("ini");
+
 const axios = require('axios');
+
+const config = ini.parse(fs.readFileSync('src/config/config.ini', 'utf-8'));
 
 exports.findPrecoMetroQuadrado = async () =>{
     try {
