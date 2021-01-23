@@ -5,7 +5,7 @@ Sumario:
  Descrição
   A API de calculadora serve para retornar o valor de um imóvel a partir da quantidade de metros quadrados.
   
-  Estrutura
+  #Estrutura
     
     A estrutura do projeto contém o seguinte fluxo
       
@@ -42,7 +42,7 @@ Sumario:
           - app.js
             Arquivo responsável por instanciar todas as configurações da API, e instanciar as rotas da API
             
-  Scripts de execução
+  #Scripts de execução
   
     - npm start: Inicializa a API com o uso do framework nodemon para o desenvolvimento
     
@@ -54,7 +54,7 @@ Sumario:
     
     - npm test: comando para executar os testes unitários da API
   
-  End-point
+  #End-point
   
     - http://{host}:{porta}/{metrosQuadrados}
       Ao ser chamado o end-point, a API retorna o valor do imóvel de acordo com o valor de metros quadrados é colocado no método get conforme exemplo
@@ -63,12 +63,12 @@ Sumario:
      - http://{host}:{porta}/api/doc/
       Ao ser chamado o end-point, é retornado a documentação da API
       
-   Status de retorno
+   #Status de retorno
    
     - status 200: Retorna o valor correto do preço do imóvel;
     - status 400: Valor enviado como parametro para a API é i válido;
     - Status 503: houve um erro interno na API
       
-  Dependência
+  #Dependência
   
     Para a API funcionar, precisa de uma outra API de precificacao(https://github.com/marcelo2212/precificacao) para que realize o cálculo corretamente.
