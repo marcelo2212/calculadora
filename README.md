@@ -54,7 +54,7 @@ Sumario:
     
     - npm test: comando para executar os testes unitários da API
   
-  #End-point
+  <h4>End-point</h4>
   
     - http://{host}:{porta}/{metrosQuadrados}
       Ao ser chamado o end-point, a API retorna o valor do imóvel de acordo com o valor de metros quadrados é colocado no método get conforme exemplo
@@ -63,12 +63,12 @@ Sumario:
      - http://{host}:{porta}/api/doc/
       Ao ser chamado o end-point, é retornado a documentação da API
       
-   #Status de retorno
+   <h4>Status de retorno</h4>
    
     - status 200: Retorna o valor correto do preço do imóvel;
     - status 400: Valor enviado como parametro para a API é i válido;
     - Status 503: houve um erro interno na API
       
-  #Dependência
+  <h4>Dependência</h4>
   
     Para a API funcionar, precisa de uma outra API de precificacao(https://github.com/marcelo2212/precificacao) para que realize o cálculo corretamente.
