@@ -35,6 +35,9 @@ Sumario:
             
           - Service
             Pasta que contém os arquivos que consultam dados de outras APIs
+            
+          - Config
+            Pasta que contém todos os arquivos de configuração
           
           - app.js
             Arquivo responsável por instanciar todas as configurações da API, e instanciar as rotas da API
@@ -68,4 +71,4 @@ Sumario:
       
   Dependência
   
-    Para a API funcionar, precisa de uma outra API de precificacao para que realize o cálculo corretamente.
+    Para a API funcionar, precisa de uma outra API de precificacao(https://github.com/marcelo2212/precificacao) para que realize o cálculo corretamente.
