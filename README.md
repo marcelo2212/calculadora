@@ -2,10 +2,10 @@
 Sumario:
   API para calcular o valor do imóvel.
  
- Descrição
+ <h4>Descrição</h4>
   A API de calculadora serve para retornar o valor de um imóvel a partir da quantidade de metros quadrados.
   
-  #Estrutura
+  <h4>Estrutura</h4>
     
     A estrutura do projeto contém o seguinte fluxo
       
@@ -42,7 +42,7 @@ Sumario:
           - app.js
             Arquivo responsável por instanciar todas as configurações da API, e instanciar as rotas da API
             
-  #Scripts de execução
+  <h4>Scripts de execução</h4>
   
     - npm start: Inicializa a API com o uso do framework nodemon para o desenvolvimento
     
